@@ -13,7 +13,7 @@ const Navbar = () => {
             <Link href="/eom">
                 <a className="mx-8 text-lg font-light">EOM</a>
             </Link>
-            <Link href="/">
+            <Link href="https://github.com/dhri-yama/nextjs-news-app">
                 <a className="mx-8 text-lg font-light">Source</a>
             </Link>
         </nav>
