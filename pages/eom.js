@@ -1,5 +1,11 @@
+import Head from 'next/head'
+
 export const EOM = ({employee}) => {
     return (
+        <>
+        <Head>
+            <title> EOM</title>
+        </Head>
         <div className="container">
             <h1 className="text-center text-4xl font-black mt-4">
                 Employee of the month</h1>
@@ -14,6 +20,7 @@ export const EOM = ({employee}) => {
                     {employee.description}</p>
             </div>
         </div>
+        </>
     )
 }
 
