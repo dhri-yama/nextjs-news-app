@@ -2,6 +2,10 @@ import Head from 'next/head'
 export default function Home() {
   
   return (
+    <>
+    <Head>
+    <title>Next.js News App</title>
+    </Head>
     <div className=" h-screen">
       <div className="w-full h-full flex flex-col justify-center items-center">
         <h1 className="text-4xl md:text-6xl text-center font-semibold mb-4">
@@ -13,5 +17,6 @@ export default function Home() {
       </div>
       
     </div>
+    </>
   )
 }
